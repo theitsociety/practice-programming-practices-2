@@ -1,0 +1,52 @@
+Agenda
+
+Variable types
+
+     byte - 8
+     short - 16
+     int - 32
+     long - 64
+
+     float - 32
+     double - 64
+
+     boolean - 1 - true-false
+     char - 16
+
+    String - character array - ["H","e","l","l","o"]
+
+
+ Is String a Primitive or a Derived Type? Why?
+     A String is a derived type since it has state and behavior.
+     For example, it has methods like substring(), indexOf(), and equals(), which primitives cannot have.
+
+     it has some special characteristics that make it feel like a primitive:
+     	 	While strings are not stored on the call stack like primitives are, they are stored in a special memory region called the string pool
+
+     	 	Java String Pool is the special memory region where Strings are stored by the JVM.
+
+     	 	Like primitives, we can use the + operator on strings
+
+     	 	And again, like primitives, we can create an instance of a String without the new keyword
+
+
+Is string mutable or immutable ? (Str class)
+
+String literal vs String object (Str2 class)
+
+String vs StringBuilder vs StringBuffer ?
+
+
+Questions
+    1. Check if the two strings are anagram
+            an anagram is a word or phrase formed by rearranging the letters of a different word or phrase.
+            heart - earth / race - care
+        - sort and compare
+        - counting
+
+    2. Reverse String  // hello
+        - Create a new String and compare
+        - Swapping characters
+        - StringBuilder
+    3. check if a String is Palindrome ?
+         -Palindrome - A palindrome is any sequence of characters that reads the same backward as forward, such as “madam”, “radar” or “level”.
